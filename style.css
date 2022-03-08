@@ -147,3 +147,12 @@ header{
     color: var(--bg-color);
     transition: 0.2s all linear;
 }
+.heading{
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--main-color);
+}
