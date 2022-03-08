@@ -1,6 +1,6 @@
 # galaxy-movies
 Watch action,horror and thriller movies through our website.
-# Portfolio
+# galaxy movies
 ##### By Francis Mwangi.
 ### It is a description of my resume.
 ## Table of Content
