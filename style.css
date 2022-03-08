@@ -32,7 +32,7 @@ header{
     justify-content: space-between;
     padding: 20px 100px;
     transition: 0.5s;
-    background: red;
+   
 }
 .logo{
     font-size: 1.1rem;
@@ -88,8 +88,8 @@ header{
     background: aqua;
 }
 .container{
-    width: 100%;
-    min-height: 640px;
+    width: 30%;
+    min-height: 900px;
     position: relative;
     display: flex;
     align-items: center;
