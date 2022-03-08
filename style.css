@@ -156,3 +156,32 @@ header{
     text-transform: uppercase;
     border-bottom: 1px solid var(--main-color);
 }
+.movies-container{
+    max-width: 968px;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px,auto));
+    gap: 1rem;
+    margin-top: 9rem;
+}
+.box .box-img{
+    width: 10%;
+    height: 100%;
+}
+.box .box-img img{
+    width: 100%;
+    height: 10%;
+    object-fit: cover;
+}
+.box .box-img img:hover{
+    transform: translateY(-10px);
+    transition: 0.2s all linear;
+}
+.box h3{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.box span{
+    font-size: 13px;
+}
