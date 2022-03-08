@@ -65,3 +65,22 @@ header{
     left: 0;
     transition: 0.4s all linear;
 }
+.navbar a:hover::after, .navbar .home-active{
+    width: 100%;
+}
+#menu-icon{
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1000001;
+    display: none;
+}
+.btn{
+    padding: 0.7rem 1.4rem;
+    background: var(--text-color);
+    color: var(--bg-color);
+    font-weight: 400;
+    border-radius: 0.5rem;
+}
+.btn:hover{
+    background: aqua;
+}
