@@ -18,6 +18,9 @@ body{
     background: var(--text-color);
     color: var(--bg-color);
 }
+section{
+    padding: 4.5rem 0 1.5rem;
+}
 header{
     position: fixed;
     width: 100%;
@@ -29,7 +32,7 @@ header{
     justify-content: space-between;
     padding: 20px 100px;
     transition: 0.5s;
-    background: var(--main-color);
+    background: red;
 }
 .logo{
     font-size: 1.1rem;
@@ -41,7 +44,7 @@ header{
 }
 .logo .bx{
     font-size: 24px;
-    color: var(--main-color);
+    color: purple;
 }
 .navbar{
     display: flex;
@@ -83,4 +86,12 @@ header{
 }
 .btn:hover{
     background: aqua;
+}
+.container{
+    width: 100%;
+    min-height: 640px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: rgb(2, 3, 7,0.4);
 }
